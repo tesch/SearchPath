@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ParserCombinators",
+        "repositoryURL": "https://github.com/tesch/ParserCombinators",
+        "state": {
+          "branch": null,
+          "revision": "8c9d5bf794b4c7d07c762442852d9cf32e6aa860",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "e1465042f195f374b94f915ba8ca49de24300a0d",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
