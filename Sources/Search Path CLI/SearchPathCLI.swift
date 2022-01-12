@@ -80,11 +80,9 @@ extension SearchPathCLI {
             print(directoryTree.compact)
 
         case .list:
-            let urls = directoryTree.urls.map(\.path).sorted { left, right in
-                left.localizedStandardCompare(right) == .orderedAscending
+            for url in directoryTree.urls {
+                print(url.path)
             }
-
-            print(urls.joined(separator: "\n"))
 
         case .leafCount:
             print(directoryTree.leafCount)
